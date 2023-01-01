@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style1.css">
+	<script defer src="js/form.js"></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="bgphoto">
+		<div class="liniai">
+			<div class="regform">
+				<h1>Contact form</h1>
+				<p>Please fiill in your information and well be sendind your order</p>
+			</div>
+
+			<div class="main">
+				<form class="formWithValidation">
+					<label>
+						<span class="name">Your name</span>
+						<input class="firstname" type="text" name="first-name" placeholder="Your first name" autofocus
+							required tabindex="1" />
+						<input class="lastname" type="text" name="last-name" placeholder="Your last name" autofocus required
+							tabindex="1" />
+					</label>
+					<label>
+						<span class="name">Your Email</span>
+						<input class="email" type="email" name="email" placeholder="your@email" minlength="3" maxlength="64"
+							required tabindex="3" pattern="(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/))" />
+					</label>
+
+					<label>
+						<span class="name">Phone</span>
+						<input class="tel" type="tel-code" name="phone-number" autocomplete placeholder="+38" tabindex="4" />
+						<input class="tel" type="tel-number" name="phone-number" autocomplete placeholder="(---)"
+							tabindex="5" />
+						<input class="tel" type="tel-number2" name="phone-number" autocomplete placeholder="00000000"
+							tabindex="6" />
+					</label>
+
+					<label>
+						<span class="name">Message subject</span>
+						<select class="option" name="subject">
+							<option disabled="disabled" selected="selected">--Choose option--</option>
+							<option>Subject 1</option>
+							<option>Subject 2</option>
+							<option>Subject 3</option>
+						</select>
+					</label>
+					<label>
+						<span class="name">Message </span>
+						<textarea id="subject" name="Message" placeholder="Write something.."></textarea>
+					</label>
+					<input type=' submit' class='validateBtn' value='SUBMIT FORM' />
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+
+</html>

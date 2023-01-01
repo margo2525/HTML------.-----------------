@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	font-size: 20px;
+ }
+ 
+ body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+ .bgphoto{
+	background-image: url(https://zastavok.net/main/abstraktnye/1446105306.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-width: 320px;
+	position: absolute;
+	max-width: 800px;
+	width: 100%;
+	padding:10px ;
+ }
+.liniai{
+	position: relative;
+	margin: 25px;
+	border:3px solid black ;
+	box-shadow: -2px -2px 20px 9px #040e01;
+}
+
+ h2 {
+	text-align: center;
+ }
+ 
+ form {
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	width: 100%;
+	max-width: 800px;
+	padding:15px ;
+ }
+ .regform {
+	min-width: 320px;
+	width: 100%;
+	max-width: 800px; 
+	
+	color: #FFFFFF;
+	padding: 15px;
+	
+ }
+ 
+ label {
+	width: 100%;
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+	padding: 10px;
+ }
+ 
+ input {
+	
+	outline: none;
+	
+ }
+ 
+ .name {
+
+	width: 200px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+ }
+ .firstname {
+	
+	
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+ 
+ }
+ 
+ .lastname {
+
+	
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+ }
+ 
+
+
+ .email {
+	
+	line-height: 40px;
+	width: 85%;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+ }
+
+ .tel {
+	
+	line-height: 40px;
+	width: 26%;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+ }
+ .option {
+	
+	line-height: 40px;
+	width: 85%;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+ }
+#subject{
+	line-height: 40px;
+	width: 85%;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+.validateBtn {
+	background-color: #3BAF9F;
+	display: block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid #366473;
+	padding: 14px 110px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+ }
+ 
+ .validateBtn:hover {
+	background-color: #0e6065;
+ }
+ 
+
+ 
+ .valid {
+	border: 2px solid green;
+ }
+ 
+ .invalid {
+	border: 2px solid red;
+ }
